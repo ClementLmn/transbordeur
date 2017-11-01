@@ -1,0 +1,10 @@
+/* Footer */
+footer{
+    display: flex;
+    padding: 0 25px;
+    .step{
+        height: 20px;
+        flex: 1;
+        border-left: 1px solid $grey;
+    }
+}

@@ -1,0 +1,16 @@
+/* Header */
+header{
+    height: $gutter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    font-family: 'Playfair Display';
+    font-size: 1.8rem;
+    color: $white;
+    display: flex;
+    > li {
+        margin: 0 35px;
+    }
+}
