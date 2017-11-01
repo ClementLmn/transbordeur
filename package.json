@@ -31,7 +31,7 @@
       "vinyl-source-stream": "^1.1.0"
    },
    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "deploy": "git subtree push --prefix dest origin gh-pages"
    },
    "license": "MIT"
 }
