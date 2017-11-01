@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://www.test.com/creation.html</loc>
+        <lastmod>2017-10-26T16:25:23.264Z</lastmod>
+    </url>
+    <url>
+        <loc>http://www.test.com/destruction.html</loc>
+        <lastmod>2017-10-26T16:25:23.284Z</lastmod>
+    </url>
+    <url>
+        <loc>http://www.test.com/index.1.html</loc>
+        <lastmod>2017-10-26T15:24:57.517Z</lastmod>
+    </url>
+    <url>
+        <loc>http://www.test.com/</loc>
+        <lastmod>2017-10-26T16:25:23.295Z</lastmod>
+    </url>
+    <url>
+        <loc>http://www.test.com/resurection.html</loc>
+        <lastmod>2017-10-26T16:25:23.296Z</lastmod>
+    </url>
+    <url>
+        <loc>http://www.test.com/symbolisation.html</loc>
+        <lastmod>2017-10-26T16:25:23.296Z</lastmod>
+    </url>
+</urlset>
