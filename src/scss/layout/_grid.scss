@@ -22,6 +22,48 @@ main{
     flex: 1;
 }
 
+.nextBtn {
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 40;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 0;
+        height: 3px;
+        background-color: currentColor;
+        transition: $transition;
+    }
+    &:hover{
+        &:after{
+            width: 100%;
+        }
+    }
+}
+
+.prog-bar{
+    color: black;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    border: 2px solid currentColor;
+    height: 15px;
+    width: 35px;
+    span{
+        display: block;
+        height: 100%;
+        width: 0%;
+        background-color: currentColor;
+    }
+}
+
 section {
     position: absolute;
     height: 100%;

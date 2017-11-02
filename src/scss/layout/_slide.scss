@@ -39,3 +39,41 @@
         font-size: 4rem;
     }
 }
+
+.retry.slide{
+    display: flex;
+    flex-direction: column;
+    .col{
+        flex: 1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    h3{
+        cursor: pointer;
+        position: relative;
+        font-family: 'Playfair Display';
+        font-size: 4rem;
+        &:after{
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: -15px;
+            width: 0;
+            height: 4px;
+            background-color: $grey;
+            transition: $transition;
+        }
+        &:hover{
+            &:after{
+                width: 100%;
+            }
+        }
+    }
+}
+
+#resurection{
+    color: $white !important;
+}

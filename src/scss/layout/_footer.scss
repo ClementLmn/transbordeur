@@ -1,10 +1,32 @@
 /* Footer */
 footer{
-    display: flex;
     padding: 0 25px;
-    .step{
-        height: 20px;
-        flex: 1;
-        border-left: 1px solid $grey;
+    color: black;
+    overflow: hidden;
+    .inner-footer{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
     }
+    .step{
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        display: flex;
+        .inner{
+            margin: 0 0 0 9px;
+            height: 100%;
+            width: 2px;
+            background-color: currentColor;
+        }
+    }
+}
+
+#here{
+    position: absolute;
+    left: 9px;
+    top: 2.5px;
+    height: 15px;
+    width: 30px;
+    background-color: currentColor;
 }

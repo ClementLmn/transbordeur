@@ -9,7 +9,7 @@ module.exports = function(){
         patternScaleX = 1,
         patternScaleY = 1,
         patternRefreshInterval = 5,
-        patternAlpha = 13; // int between 0 and 255,
+        patternAlpha = 18; // int between 0 and 255,
 
     var patternPixelDataLength = patternSize * patternSize * 4,
         patternCanvas,
