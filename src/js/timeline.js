@@ -9,6 +9,7 @@ module.exports = () => {
     let nextSlide;
     let currentSlide;
     let tl;
+    let twBar;
 
     const animate = current => {
         currentSlide = current;
@@ -91,8 +92,9 @@ module.exports = () => {
     }
 
     const updateTime = t => {
+        if(twBar) twBar.kill();
         TweenLite.set($('#bar span'), {css: {width: '0%'}});
-        TweenLite.to($('#bar span'), t, {css: {width: '100%'},ease: Power0.easeNone});
+        twBar = TweenLite.to($('#bar span'), t, {css: {width: '100%'},ease: Power0.easeNone});
     }
 
     const updateProgress = current => {
